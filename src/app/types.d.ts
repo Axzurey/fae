@@ -4,3 +4,7 @@ interface luaFile {
 }
 
 type directory = string
+
+enum routineTypes {
+    keybind, time, programLaunched
+}
