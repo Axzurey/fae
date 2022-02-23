@@ -8,7 +8,7 @@ require("../packages/codemirror/codemirror-5.65.2/mode/lua/lua.js");
 require("../packages/codemirror/codemirror-5.65.2/mode/javascript/javascript.js");
 var code = document.getElementById('code');
 var mirror = codemirror_1.default.fromTextArea(code, {
-    mode: "javascript",
+    mode: "lua",
     lineNumbers: true,
     lineWrapping: true,
     tabSize: 4,

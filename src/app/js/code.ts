@@ -5,7 +5,7 @@ import '../packages/codemirror/codemirror-5.65.2/mode/javascript/javascript.js'
 let code = document.getElementById('code')
 
 let mirror = CodeMirror.fromTextArea(code as HTMLTextAreaElement, {
-    mode: "javascript",
+    mode: "lua",
     lineNumbers: true,
     lineWrapping: true,
     tabSize: 4,
