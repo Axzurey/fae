@@ -10,7 +10,7 @@
   "version": "1.0.0",
   "main": "./compiled/js/index.js",
   "scripts": {
-    "copy": "robocopy ./src/app ./compiled /mir /xd js",
+    "copy": "(robocopy ./src/app ./compiled /mir /xd js) ^& IF %ERRORLEVEL% LSS 8 SET ERRORLEVEL = 0",
     "build": "tsc",
     "start": "npm run build && electron .",
     "dev": "concurrently \"tsc -w\" \" npm run copy && electron .\" "
