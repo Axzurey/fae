@@ -7,7 +7,7 @@ let code = document.getElementById('code')
 let mirror = CodeMirror.fromTextArea(code as HTMLTextAreaElement, {
     mode: "lua",
     lineNumbers: true,
-    lineWrapping: true,
+    lineWrapping: false,
     tabSize: 4,
     indentWithTabs: true,
     indentUnit: 4,

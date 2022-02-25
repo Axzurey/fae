@@ -10,7 +10,7 @@ var code = document.getElementById('code');
 var mirror = codemirror_1.default.fromTextArea(code, {
     mode: "lua",
     lineNumbers: true,
-    lineWrapping: true,
+    lineWrapping: false,
     tabSize: 4,
     indentWithTabs: true,
     indentUnit: 4,

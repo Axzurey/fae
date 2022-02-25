@@ -1,5 +1,7 @@
 {
   "dependencies": {
+    "@codemirror/basic-setup": "^0.19.1",
+    "@codemirror/lang-javascript": "^0.19.7",
     "codemirror": "^5.65.2",
     "edge": "^7.10.1",
     "electron": "^17.0.1",
